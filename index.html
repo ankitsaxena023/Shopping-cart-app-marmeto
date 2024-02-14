@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,775;1,800&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Shopping Cart App</title>
+  </head>
+
+  <body>
+    <!-- Your code goes here -->
+    <!-- <div class="container">
+        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+    </div> -->
+    <main id="mainContainer">
+      <div id="leftContainer">
+        <div id="mainImgContainer">
+          <!-- Main Image container -->
+          <img
+            src="https://images.pexels.com/photos/20163470/pexels-photo-20163470/free-photo-of-model-posing-in-long-dress.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            id="mainImg"
+          />
+        </div>
+        <div id="thumbnailContainer">
+          <!-- Thumbnail Images -->
+          <img
+            src="https://images.pexels.com/photos/20163469/pexels-photo-20163469/free-photo-of-brunette-in-long-dress.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            class="ThumbnailImg"
+          />
+          <img
+            src="https://images.pexels.com/photos/20163469/pexels-photo-20163469/free-photo-of-brunette-in-long-dress.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            class="ThumbnailImg"
+          />
+          <img
+            src="https://images.pexels.com/photos/20163469/pexels-photo-20163469/free-photo-of-brunette-in-long-dress.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            class="ThumbnailImg"
+          />
+          <img
+            src="https://images.pexels.com/photos/20163469/pexels-photo-20163469/free-photo-of-brunette-in-long-dress.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt=""
+            class="ThumbnailImg"
+          />
+        </div>
+      </div>
+      <div id="rightContainer">
+        <!-- Description container -->
+        <div id="titlesDiv">
+          <p id="vendor"></p>
+          <h2 id="title"></h2>
+          <hr />
+        </div>
+        <div>
+          <h2 id="discountedPrice">.00</h2>
+          <span id="discount">35% Off</span>
+          <p id="actualPrice">$19999.00</p>
+          <hr />
+        </div>
+        <div>
+          <p class="chooseTitle">Choose a color</p>
+          <div id="colorBoxContainer">
+            <div class="colorBox colorBox1">
+              <span class="colorPicker colorPicker1"> </span>
+            </div>
+            <div class="colorBox colorBox2">
+              <span class="colorPicker colorPicker2"> </span>
+            </div>
+            <div class="colorBox colorBox3">
+              <span class="colorPicker colorPicker3"> </span>
+            </div>
+            <div class="colorBox colorBox4">
+              <span class="colorPicker colorPicker4"> </span>
+            </div>
+          </div>
+          <hr />
+        </div>
+        <div>
+          <p class="chooseTitle">Choose a size</p>
+          <div id="sizeParentContainer">
+            <div id="sizeContainer"></div>
+          </div>
+        </div>
+        <div class="btnContainer">
+          <button class="valueBtn"><span>-</span>1<span>+</span></button>
+          <button class="addToCartBtn">
+            <i class="fas fa-shopping-bag"></i>
+            Add To Cart
+          </button>
+        </div>
+        <hr />
+        <div id="descContainer"></div>
+      </div>
+    </main>
+    <!-- Happy coding 😊 -->
+    <script src="./script.js"></script>
+  </body>
+</html>
